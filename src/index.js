@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const videoUrl = "http://fliz.wuaze.com/wp-content/uploads/2025/06/AQPg06-FNVxPwg5lylHh5dom21oA8sRRpkqj9UU6yfZ-vvKNTWsbGFe59YTpBIsm9zGwArQJbsCCdazEVbrtwjxf5fYA9fnCbQcgIR4.mp4";
+    const videoUrl = "https://video.gumlet.io/684cd82890b0148cd24b3fab/684cd846c4269590ab78d1bf/main.m3u8";
 
     const response = await fetch(videoUrl, {
       headers: {
