@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const videoUrl = "https://ia903100.us.archive.org/33/items/shr-2010/Shr2010.mp4";
+    const videoUrl = "http://fliz.wuaze.com/wp-content/uploads/2025/06/Sin-Querer-Queriendo-2025-S01E01-Web-Dl-1080p.mkv";
 
     const response = await fetch(videoUrl, {
       headers: {
