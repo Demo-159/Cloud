@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const videoUrl = "http://fliz.wuaze.com/wp-content/uploads/2025/06/Sin-Querer-Queriendo-2025-S01E01-Web-Dl-1080p.mkv";
+    const videoUrl = "http://fliz.wuaze.com/wp-content/uploads/2025/06/AQPg06-FNVxPwg5lylHh5dom21oA8sRRpkqj9UU6yfZ-vvKNTWsbGFe59YTpBIsm9zGwArQJbsCCdazEVbrtwjxf5fYA9fnCbQcgIR4.mp4";
 
     const response = await fetch(videoUrl, {
       headers: {
