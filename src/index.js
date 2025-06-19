@@ -9,11 +9,13 @@ export default {
       }
     });
 
+    // Clonamos headers originales y agregamos CORS
     const newHeaders = new Headers(response.headers);
     newHeaders.set("Access-Control-Allow-Origin", "*");
-    newHeaders.set("Content-Disposition", "inline");
-    newHeaders.set("Content-Type", "video/mp4");
+    newHeaders.set("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS");
+    newHeaders.set("Access-Control-Allow-Headers", "*");
 
+    // No modificar Content-Type
     return new Response(response.body, {
       status: response.status,
       headers: newHeaders,
