@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const videoUrl = "https://ia803100.us.archive.org/33/items/shr-2010/Shr2010.mp4";
+    const videoUrl = "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8";
 
     const response = await fetch(videoUrl, {
       headers: {
