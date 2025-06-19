@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const videoUrl = "https://a309a.cloudatacdn.com/u5kj6k5pyhblsdgge6mmi3splfptdne67kr7y3oulxzkjj2ovtyfoy7ripwq/28vmhprtel~33plReQtil?token=tuhoamvqoualla0b8ib8wwwl&expiry=1750296001832";
+    const videoUrl = "https://ia803100.us.archive.org/33/items/shr-2010/Shr2010.mp4";
 
     const response = await fetch(videoUrl, {
       headers: {
